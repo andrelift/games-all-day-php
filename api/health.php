@@ -1,4 +1,3 @@
-
 <?php
 declare(strict_types=1);
 
@@ -11,3 +10,4 @@ echo json_encode([
     'curl_available' => extension_loaded('curl'),
     'json_available' => extension_loaded('json'),
 ]);
+?>
