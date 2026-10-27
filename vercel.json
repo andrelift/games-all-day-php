@@ -1,4 +1,3 @@
-
 {
   "version": 2,
   "functions": {
@@ -7,9 +6,7 @@
     }
   },
   "routes": [
-    {
-      "src": "/((?!api/).*)",
-      "dest": "/api/index.php"
-    }
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
